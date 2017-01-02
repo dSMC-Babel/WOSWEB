@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+*{
+
+  margin: 0;
+  padding: 0;
+}
+
+
+/*Color de background*/
+body {
+  background: linear-gradient(#3A3858, #001a33);
+  color: #fff;
+  font-weight: 400;
+  font-size: 1em;
+  font-family: 'Lato', Arial, sans-serif;
+}
+
+/*Header Machines*/
+.header_Machines {
+  width:100%;
+  height:40px;
+  margin: 0px 0 10px 0;
+  border:0px;
+  background:#3D88AD;
+  color: #fff;
+  text-align: center ;
+  box-shadow: 5px 5px 5px black  ;
+}
+
+/*Inicio Boton Select Machines */
+
+.button_Open_Machines {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #476b6b;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 350px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px
+
+}
+
+.button_Open_Machines span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button_Open_Machines span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button_Open_Machines:hover span {
+  padding-right: 25px;
+}
+
+.button_Open_Machines:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*Fin Boton Select Machines*/
+
+
+/*Caja campos formularios */
+
+input[type=checkbox] {
+margin: 3px 2px 2px 5px;
+
+
+
